@@ -1,0 +1,39 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f8fdff;
+}
+
+#principal{
+    color: #E29578;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px #b77057;
+}
+
+.basic{
+    color: #a7c957;
+}
+
+.intermediate{
+    color: #e9c46a;
+}
+
+.advanced{
+    color: #bc4749;
+}
+
+h1{
+    color: #006D77;
+}
+
+h2{
+    font-size: 1.25rem;
+    color: #83C5BE;
+    font-style: italic;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
