@@ -27,18 +27,20 @@
     <main>
         <h2>O que você quer experimentar hoje?</h2>
 
-        <section class="doce">
-            <div class="imagem">
-                <img src="imagens/cupcake.jpg" alt="imagem de cupcake">
-            </div>
+        <div id="container">      
+            <section class="doce">
+                <div class="imagem">
+                    <img src="imagens/cupcake.jpg" alt="imagem de cupcake">
+                </div>
 
-            <div class="description">
-                <h3>Cupcake</h3>
-                <p>Feitos com ingredientes selecionados, nossos cupcakes têm uma massa leve que derrete na boca, recheio cremoso e uma cobertura irresistível, finalizada com um toque especial de carinho. Perfeitos para adoçar qualquer momento, do café da tarde às comemorações mais especiais. Uma explosão de sabor em cada mordida!</p>
+                <div class="description">
+                    <h3>Cupcake</h3>
+                    <p>Feitos com ingredientes selecionados, nossos cupcakes têm uma massa leve que derrete na boca, recheio cremoso e uma cobertura irresistível, finalizada com um toque especial de carinho. Perfeitos para adoçar qualquer momento, do café da tarde às comemorações mais especiais. Uma explosão de sabor em cada mordida!</p>
+                    <input type="button" value="Experimente" id="btn">
+                </div>
+            </section>
 
-                <input type="button" value="Experimente" id="btn">
-            </div>
-        </section>
+        </div>
 
         <section class="doce" id="doce-direita">
             <div class="description">
@@ -55,7 +57,7 @@
             </div>
         </section>
 
-                <section class="doce">
+        <section class="doce">
             <div class="imagem">
                 <img src="imagens/panqueca.jpg" alt="imagem de cupcake">
             </div>
@@ -84,8 +86,16 @@
                 <img src="imagens/sonho.jpg" alt="imagem de cupcake">
             </div>
         </section>
-
+        <input type="button" value="mais opções para você ->" id="maisDoces">
     </main>
+
+    <aside id="salgados">
+            <div class="content">
+                <h2>Conheça também os nossos salgados</h2>
+                <input type="button" value="veja" id="btn">
+            </div>
+    </aside>
+
     <script src="script.js"></script>
 </body>
 </html>

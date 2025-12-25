@@ -64,7 +64,7 @@ header {
     justify-content: center;
 
     text-align: center;
-    box-shadow: inset 6px 6px 13px 0px #00000053;
+    box-shadow: inset 6px 6px 13px 5px rgba(0, 0, 0, 0.363);
     font-family: Sriracha, Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
@@ -82,7 +82,7 @@ header {
 }   
 
 main {   
-    background-color: aliceblue;
+    
 }
 
 main h2 {
@@ -93,6 +93,10 @@ main h2 {
 
     font-size: 3.5rem;
     color: #3D405B;
+}
+
+#container {
+    display: flex;
 }
 
 .doce {
@@ -143,7 +147,7 @@ main h2 {
 
 .doce .description h3 {
     text-align: center;
-    font-family: Sriracha,Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Sriracha, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3rem;
     margin-bottom: 10px;
 }
@@ -189,3 +193,76 @@ main h2 {
     box-shadow: 2px 2px 5px #0000001a;
 }
 
+#maisDoces {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: 2px solid #81B29A;
+    border-radius: 10px;
+    padding: 20px 50px;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #81B29A;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.2s;
+
+}
+
+#maisDoces:hover {
+    background-color: white;
+    color: #81B29A
+}
+
+#salgados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 900px;
+    background-image: url(imagens/salgados.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    box-shadow: inset 6px 6px 13px 5px rgba(0, 0, 0, 0.363);
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.387);
+    padding: 100px;
+    border-radius: 10px;
+}
+
+#salgados h2 {
+    text-align: center;
+    font-family: Sriracha,Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+    font-size: 4rem;
+    color: white;
+}
+
+#salgados #btn {
+    display: block;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px 50px;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+#salgados #btn:hover {
+    scale: calc(1.1);
+}
